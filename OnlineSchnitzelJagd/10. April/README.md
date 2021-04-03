@@ -12,17 +12,19 @@
    1. Video Schauen: https://www.youtube.com/watch?v=2VGkcYcQGas&ab_channel=SRFComedy
    2. Was ist wenn es oben schifft und unten seicht?
       1. Es isch guet s Walserwasser
-3. Kreuzwort Rätsel:
+3. QR-Code mit nächstem Punkt
+4. Kreuzwort Rätsel:
    1. Verstecken
    2. Lösung Spirou via Whats App senden
    3. senden von nächster Punkt
-4. Rechnungen:
+5. Rechnungen:
    1. 13^2
       1. 169
    2. 123456789+123459789
       1. 246916578
-5. Wir geben nach dem Essen den Ort
-6. Fragen:
+6. Wir geben nach dem Essen den Ort
+7. QR-Code mit nächstem Punkt
+8. Fragen:
    1. Was machen wenn jemand bewusstlos ist?
       1. Bewusstlosenlagerung
    2. Was macht man, wenn jemand stark blutet?
@@ -31,30 +33,35 @@
       1. Henry Dunant
    4. Wer hat den CVJM gegründet?
       1. George Williams
-7. Kängus Box verstecken und versuchen zu öffnen
+9. QR-Code mit nächstem Punkt
+10. Kängus Box verstecken und versuchen zu öffnen
    1. QR-Code mit Ihr habt es geschafft 
 
 ## Maps
 
-- Ganzer Weg: https://goo.gl/maps/MNp2oZgA4bR7Rh9SA 
-- Punkt Gründelweg: https://goo.gl/maps/ugrGEByaeA3cFpPs6
-- Punkt Talweg: https://goo.gl/maps/GhZAr1W5aJrBjsLw6
-- Punkt Sulzbacherstrasse: https://goo.gl/maps/KbsnYu2VPJYLjpWe6
-- Bild Buchhaldenweg: /Images/Buchhalderweg Spielplatz/
-- Punkt Buchhaldenweg: https://goo.gl/maps/kM1s2HGtkWDfyo9p9
-- Punkt Burgstrasse: https://goo.gl/maps/wARDGK93CYmhKHPb8
-- Bild Burgstrasse: /Imanges/Kreisel/kreisel.png
-- Punkt Freienstrasse: https://goo.gl/maps/P3ajzN696xXkZdyp6
+- Ganzer Weg: https://goo.gl/maps/tSMYLfJF8chzo4xF9
+- Fuchslöscherweg: https://goo.gl/maps/uabvv4xASBWU6FZ49
+- Langwaldweg: https://goo.gl/maps/9kWYeR7TZgFuvy34A
+- Sulzbacherstarsse: https://goo.gl/maps/KhzfXcz9UskSBECF8
+- Buchhaldenweg: https://goo.gl/maps/83mKY7KnmGgdVipj7
+- Talackerstrasse: https://goo.gl/maps/S4Nqo6kL96Zqrieo9
+- Aabachweg: https://goo.gl/maps/U4dvrJ7kzyWyiX1G7
+- Zürichstrasse: https://goo.gl/maps/ByRVW18QkaQkAcGW9
+- Vorderer Hasenbühlweg: https://goo.gl/maps/jTCNp2TWxjdgMNf18
+- Rehbülstrasse: https://goo.gl/maps/UdNTqMKxykxcengm7
 
 ## Orte
 
 1. Weidli
-2. Gründelweg
-3. Talweg
+2. Fuchslöscherweg
+3. Langwaldweg
 4. Sulzbacherstrasse
-5. Buchhaldenweg (Spielplatz)
-6. Burgstrasse (Kreisel)
-7. Freienstrasse
+5. Buchhaldenweg
+6. Talackerstrasse
+7. Aabachweg
+8. Zürichstrasse
+9. Vorderer Hasenbühlweg
+10. Rehbülstrasse
 
 ## Rätsel Ideen
 
