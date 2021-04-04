@@ -63,6 +63,18 @@
 9. Vorderer Hasenbühlweg
 10. Rehbülstrasse
 
+## QR-Code URLs
+
+1. Weidli: http://aphadon.goeldi.family/
+2. Fuchslöscherweg: http://aphadon.goeldi.family/sites/Fuchsl%C3%B6scherweg/Question.html
+3. Langwaldweg: http://aphadon.goeldi.family/sites/Sulzbacherstrasse/Map.html
+4. Sulzbacherstrasse: http://aphadon.goeldi.family/sites/Sulzbacherstrasse/Question.html
+5. Buchhaldenweg: http://aphadon.goeldi.family/sites/Buchhaldenweg/Question.html
+6. Talackerstrasse: http://aphadon.goeldi.family/sites/Aabachweg/Map.html
+7. Aabachweg: http://aphadon.goeldi.family/sites/Aabachweg/Question.html
+8. Zürichstrasse: http://aphadon.goeldi.family/sites/Z%C3%BCrichstrasse/Question.html
+9. Vorderer Hasenbühlweg: http://aphadon.goeldi.family/sites/Rehb%C3%BChlstrasse/Map.html
+
 ## Rätsel Ideen
 
 - Kreuzwort-Rätsel
