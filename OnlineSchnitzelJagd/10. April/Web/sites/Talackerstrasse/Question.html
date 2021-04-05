@@ -22,32 +22,38 @@
     </header>
     <main>
         <h1>Aufgabe</h1>
-        <h2>Schaut euch das Video an und beantwortet die Frage unten.</h2>
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/2VGkcYcQGas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-        <form action="" target="_self" id="Aufgabe">
-            <label for="question">Was ist wenn es oben schifft und unten seicht?</label><br><br>
-            <input type="radio" id="answ" name="question" value="richtig">
-            <label for="male">Es isch guet s Walserwasser</label><br>
-            <input type="radio" name="question" value="falsch">
-            <label for="female">Es isch schlecht s Walserwasser</label><br>
-            <input type="radio" name="question" value="falsch">
-            <label for="other">S Walserwasser isch guet</label><br><br>
+        <h2>Löst die Rechnungen unten Korrekt.</h2><br>
+        <form id="Aufgabe">
+            <label for="question">Was ergibt 13&sup2;?</label><br><br>
+            <input type="text" id="answ1" name="question" value=""><br><br><br><br>
+            <p id="corr1"></p>
+            <label for="question">Was ergibt 123456789 + 123459789?</label><br><br>
+            <input type="text" id="answ2" name="question" value=""><br><br>
+            <p id="corr2"></p>
             <input type="button" value="Überprüfen" onclick="myFunction()">
         </form>
-        <p id="demo"></p>
     </main>
     <script>
         function myFunction() {
             var x = document.getElementById("Aufgabe");
             var i;
             for (i = 0; i < x.length ;i++) {
-                if (x.elements[i].value == "richtig") {
-                    if (x.elements[i].checked == true) {
-                        document.getElementById("demo").innerHTML = "Richtig";
-                        window.open("../Langwaldweg/Map.html", "_self");
+                if (x.elements[i].id == "answ1") {
+                    if (x.elements[i].value == "169") {
+                        document.getElementById("corr1").innerHTML = "Richtig";
                     }
                     else {
-                        document.getElementById("demo").innerHTML = "leider Falsch";
+                        document.getElementById("corr1").innerHTML = "leider Falsch";
+                        document.getElementById("Aufgabe").reset();
+                    }
+                }
+                if (x.elements[i].id == "answ2"){
+                    if (x.elements[i].value == "246916578"){
+                        document.getElementById("corr2").innerHTML = "Richtig";
+                        window.open("../Aabachweg/Map.html", "_self")
+                    }
+                    else {
+                        document.getElementById("corr2").innerHTML = "leider Falsch";
                         document.getElementById("Aufgabe").reset();
                     }
                 }

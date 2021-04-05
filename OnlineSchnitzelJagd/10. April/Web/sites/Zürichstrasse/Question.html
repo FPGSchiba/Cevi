@@ -21,8 +21,97 @@
         </nav>
     </header>
     <main>
+        <h1>Aufgabe</h1>
+        <h2>Beantwortet die Fragen unten richtig.</h2>
+        <form id="Aufgabe1">
+            <label for="question1">Was machen wenn jemand bewusstlos ist?</label><br><br>
+            <input type="radio" name="question" value="falsch">
+            <label for="question">Schlagen</label><br>
+            <input type="radio" id="answ" name="question" value="falsch">
+            <label for="male">Mund zu Mund beatmung</label><br>
+            <input type="radio" name="question" value="falsch">
+            <label for="female">Wasser über den Kopf giessen.</label><br>
+            <input type="radio" name="question" value="richtig">
+            <label for="other">Bewusstlosenlagerung</label><br><br>
+            <p id="corr1"></p>
+            <input type="button" value="Überprüfen" onclick="Aufgabe1()">
+        </form><br><br>
+        <form id="Aufgabe2">
 
+        </form><br><br>
+        <form id="Aufgabe3">
+
+        </form><br><br>
+        <form id="Aufgabe4">
+
+        </form><br><br>
     </main>
+    <script>
+        function Aufgabe1(){
+            var x = document.getElementById("Aufgabe1");
+            var i;
+            var text = "<label for=\"question\">Was macht man, wenn jemand stark blutet?</label><br><br><input type=\"radio\" name=\"question\" value=\"richtig\"><label for=\"question\">Druckverband</label><br><input type=\"radio\" id=\"answ\" name=\"question\" value=\"falsch\"><label for=\"male\">Blutung stoppen</label><br><input type=\"radio\" name=\"question\" value=\"falsch\"><label for=\"female\">Küssen</label><br><input type=\"radio\" name=\"question\" value=\"falsch\"><label for=\"other\">Bewusstlosenlagerung</label><br><br><p id=\"corr2\"></p><input type=\"button\" value=\"Überprüfen\" onclick=\"Aufgabe2()\">";
+            for (i = 0; i < x.length ;i++) {
+                if (x.elements[i].value == "richtig") {
+                    if (x.elements[i].checked == true) {
+                        document.getElementById("corr1").innerHTML = "Richtig";
+                        document.getElementById("Aufgabe2").innerHTML = text;
+                    }
+                    else {
+                        document.getElementById("corr1").innerHTML = "leider Falsch";
+                        document.getElementById("Aufgabe1").reset();
+                    }
+                }
+            }
+        }
+        function Aufgabe2(){
+            var x = document.getElementById("Aufgabe2");
+            var text = "<label for=\"question1\">Wer hat die Cevi gegründet?</label><br><br><input type=\"text\" id=\"answ\" name=\"question\" value=\"\"><br><p id=\"corr3\"></p><br><br><input type=\"button\" value=\"Überprüfen\" onclick=\"Aufgabe3()\">";
+            for (var i = 0; i < x.length ;i++) {
+                if (x.elements[i].value == "richtig") {
+                    if (x.elements[i].checked == true) {
+                        document.getElementById("corr2").innerHTML = "Richtig";
+                        document.getElementById("Aufgabe3").innerHTML = text;
+                    }
+                    else {
+                        document.getElementById("corr2").innerHTML = "leider Falsch";
+                        document.getElementById("Aufgabe2").reset();
+                    }
+                }
+            }
+        }
+        function Aufgabe3(){
+            var x = document.getElementById("Aufgabe3");
+            var text = "<label for=\"question\">Wer hat den CVJM gegründet?</label><br><br><input type=\"text\" id=\"answ\" name=\"question\" value=\"\"><br><p id=\"corr4\"></p><br><br><input type=\"button\" value=\"Überprüfen\" onclick=\"Aufgabe4()\">";
+            for (var i = 0; i < x.length ;i++) {
+                if (x.elements[i].id == "answ") {
+                    if (x.elements[i].value == "Henry Dunant") {
+                        document.getElementById("corr3").innerHTML = "Richtig";
+                        document.getElementById("Aufgabe4").innerHTML = text;
+                    }
+                    else {
+                        document.getElementById("corr3").innerHTML = "leider Falsch";
+                        document.getElementById("Aufgabe3").reset();
+                    }
+                }
+            }
+        }
+        function Aufgabe4(){
+            var x = document.getElementById("Aufgabe4");
+            for (var i = 0; i < x.length ;i++) {
+                if (x.elements[i].id == "answ") {
+                    if (x.elements[i].value == "George Williams") {
+                        document.getElementById("corr4").innerHTML = "Richtig";
+                        window.open("../VordererHasenbühlweg/Map.html", "_self")
+                    }
+                    else {
+                        document.getElementById("corr4").innerHTML = "leider Falsch";
+                        document.getElementById("Aufgabe4").reset();
+                    }
+                }
+            }
+        }
+    </script>
     <footer>
         <p>Nicht Wichtige Informationen: Hilfe holen ist erlaubt!</p>
         <p>Viel Spass haben ist Obligatorisch!</p>

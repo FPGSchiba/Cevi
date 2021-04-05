@@ -17,12 +17,12 @@
    1. Verstecken
    2. Lösung Spirou via Whats App senden
    3. senden von nächster Punkt
-5. Rechnungen:
+6. Wir geben nach dem Essen den Ort
+6. Rechnungen:
    1. 13^2
       1. 169
    2. 123456789+123459789
       1. 246916578
-6. Wir geben nach dem Essen den Ort
 7. QR-Code mit nächstem Punkt
 8. Fragen:
    1. Was machen wenn jemand bewusstlos ist?
@@ -35,7 +35,7 @@
       1. George Williams
 9. QR-Code mit nächstem Punkt
 10. Kängus Box verstecken und versuchen zu öffnen
-   1. QR-Code mit Ihr habt es geschafft 
+   11. QR-Code mit Ihr habt es geschafft 
 
 ## Maps
 
@@ -69,9 +69,9 @@
 2. Fuchslöscherweg: http://aphadon.goeldi.family/sites/Fuchsl%C3%B6scherweg/Question.html
 3. Langwaldweg: http://aphadon.goeldi.family/sites/Sulzbacherstrasse/Map.html
 4. Sulzbacherstrasse: http://aphadon.goeldi.family/sites/Sulzbacherstrasse/Question.html
-5. Buchhaldenweg: http://aphadon.goeldi.family/sites/Buchhaldenweg/Question.html
-6. Talackerstrasse: http://aphadon.goeldi.family/sites/Aabachweg/Map.html
-7. Aabachweg: http://aphadon.goeldi.family/sites/Aabachweg/Question.html
+5. Buchhaldenweg: http://aphadon.goeldi.family/sites/Talackerstrasse/Map.html
+6. Talackerstrasse: http://aphadon.goeldi.family/sites/Talackerstrasse/Question.html
+7. Aabachweg: http://aphadon.goeldi.family/sites/Z%C3%BCrichstrasse/Map.html
 8. Zürichstrasse: http://aphadon.goeldi.family/sites/Z%C3%BCrichstrasse/Question.html
 9. Vorderer Hasenbühlweg: http://aphadon.goeldi.family/sites/Rehb%C3%BChlstrasse/Map.html
 
