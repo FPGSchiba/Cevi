@@ -1,0 +1,92 @@
+header {
+    background-image: url("../Images/Zeltstadt.jpg");
+    padding: 2%;
+    margin: 0%;
+}
+
+main a {
+    font-size: large;
+    display: flexbox;
+    border: black 10px;
+    border-style: solid;
+    text-decoration: none;
+    align-self: center;
+    color: white;
+    background-color: black;
+}
+
+main a:hover {
+    background-color: blue;
+    border-color: blue;
+}
+
+.tel {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+
+ol {
+    display: block;
+    padding: 10px;
+    margin: 5%;
+}
+  
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+ul li a:hover {
+    background-color: #111;
+}
+
+.current {
+    background-color: #187330;
+}
+
+main {
+    text-align: center;
+    flex-direction: column;
+}
+
+main h1 {
+    display: inline-block;
+    align-self: center;
+}
+
+footer{
+    background-color: lightyellow;
+    text-align: center;
+    margin: auto, 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin:0;
+}
+  
+main {
+    flex:1;
+}
+  
+footer {
+    background-color: #fceec7;
+    height: 10%;
+    width: 100%;
+}

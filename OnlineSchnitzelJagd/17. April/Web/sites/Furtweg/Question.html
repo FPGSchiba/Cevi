@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/style.css" />
+    <title>Aphadon - [tbd]</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../../index.html">Anfang</a>
+                </li>
+                <li>
+                    <a href="../help.html">Hilfe</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Aufgabe</h1>
+        <h2>Löst die Rechnungen unten Korrekt.</h2><br>
+        <form id="Aufgabe" name="TheForm" action="../../log.php" method="POST">
+            <label for="question">Was heisst Aphadon?</label><br><br>
+            <input type="text" id="answ1" name="question" value=""><br><br><br><br>
+            <p id="corr1"></p>
+            <label for="question">Was wollt ihr als nächstes Thema in der Cevi (können mehrere sein)</label><br><br>
+            <textarea id="message" rows="10" cols="30">Themen</textarea><br><br>
+            <p id="corr2"></p>
+            <input type="button" value="Überprüfen" onclick="myFunction()">
+        </form>
+    </main>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("Aufgabe");
+            var i;
+            for (i = 0; i < x.length ;i++) {
+                if (x.elements[i].id == "answ1") {
+                    if (x.elements[i].value == "Mensch") {
+                        document.getElementById("corr1").innerHTML = "Richtig";
+                    }
+                    else {
+                        document.getElementById("corr1").innerHTML = "leider Falsch";
+                        document.getElementById("Aufgabe").reset();
+                    }
+                }
+                if (x.elements[i].id == "message"){
+                    if(document.getElementById("corr1").innerHTML == "Richtig"){
+                        document.getElementById("Aufgabe").submit();
+                    }
+                }
+            }
+        }       
+    </script>
+    <footer>
+        <p>Nicht Wichtige Informationen: Hilfe holen ist erlaubt!</p>
+        <p>Viel Spass haben ist Obligatorisch!</p>
+        <p>Diese Webseite wird nach dem Programm leider wieder herunter genommen und ist nur für diesen Samstgag gedacht.</p>
+    </footer>
+</body>
+</html>
