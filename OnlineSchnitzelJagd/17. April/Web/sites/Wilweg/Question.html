@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/style.css" />
+    <title>Aphadon - Wilweg</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../../index.html">Anfang</a>
+                </li>
+                <li>
+                    <a href="../help.html">Hilfe</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Aufgabe</h1>
+        <h2>Löst die Rechnungen unten.</h2><br>
+        <form id="message" name="message" action="../../php/safe.php" method="POST">
+            <label for="question">7 + 4 * 3</label><br><br>
+            <input type="text" id="answ1"><br><br>
+            <p id="corr1"></p>
+            <label for="question">9-3/(1/3)+1</label><br><br>
+            <input type="text" id="answ2"><br><br>
+            <p id="corr2"></p>
+            <input type="submit" value="Überprüfen" onclick="myFunction()">
+        </form>
+    </main>
+    <script>
+        var count = 1;
+
+        function myFunction() {
+            var x = document.getElementById("message");
+            var i;
+            for (i = 0; i < x.length ;i++) {
+                if (x.elements[i].id == "answ1") {
+                    if(x.elements[i].value == "21"){
+                        document.getElementById("corr1").innerHTML == "Richtig";
+                    }
+                    else{
+                        document.getElementById("corr1").innerHTML == "leider Falsch";
+                        x.reset();
+                    }
+                }
+                if(x.elements[i].id == "answ2"){
+                    if(document.getElementById("corr1").value == "Richtig"){
+                        if(x.elements[i].value == "1"){
+                            document.getElementById("corr2");
+                            open("../Freienstrasse/Map.html");
+                        }
+                        else{
+                            document.getElementById("corr2").innerHTML == "leider Falsch";
+                            x.reset();
+                        }
+                    }
+                }
+            }
+        }       
+    </script>
+    <footer>
+        <p>Nicht Wichtige Informationen: Hilfe holen ist erlaubt!</p>
+        <p>Viel Spass haben ist Obligatorisch!</p>
+        <p>Diese Webseite wird nach dem Programm leider wieder herunter genommen und ist nur für diesen Samstgag gedacht.</p>
+    </footer>
+</body>
+</html>

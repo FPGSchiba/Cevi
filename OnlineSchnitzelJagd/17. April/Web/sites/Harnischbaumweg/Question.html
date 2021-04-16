@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../style/style.css" />
-    <title>Aphadon - Hüttenstrasse</title>
+    <title>Aphadon - Harnischbaumweg</title>
 </head>
 <body>
     <header>
@@ -23,31 +23,23 @@
     <main>
         <h1>Aufgabe</h1>
         <h2>Beantwortet die Fragen Unten.</h2><br>
-        <form id="message" name="message" action="../../php/log.php" method="POST">
-            <label for="question">Was heisst Aphadon?</label><br><br>
+        <form id="message" name="message">
+            <label for="question">Wie heisst Kängu zum Nachnamen?</label><br><br>
             <input type="text" id="answ1" name="question" value=""><br><br><br><br>
             <p id="corr1"></p>
-            <label for="question">Was wollt ihr als nächstes Thema in der Cevi (können mehrere sein)</label><br><br>
-            <input id="thema" type="text" name="textfield" value="thema"><br><br>
-            <p id="themen"></p>
-            <input type="button" value="Thema hinzufügen" onclick="addTextfield()"><br><br>
+            <label for="question">Wie heisst Spirou zum Vornamen?</label><br><br>
+            <input id="answ2" type="text" name="answ2"><br><br>
+            <p id="corr2"></p>
             <input type="button" value="Überprüfen" onclick="myFunction()">
         </form>
     </main>
     <script>
-        var count = 1;
-
-        function addTextfield(){
-            document.getElementById("themen").innerHTML += "<input id=\"thema" + count.toString() + "\" type=\"text\" name=\"textfield" + count + "\"><br><br>";
-            count++;
-        }
-
         function myFunction() {
             var x = document.getElementById("message");
             var i;
             for (i = 0; i < x.length ;i++) {
                 if (x.elements[i].id == "answ1") {
-                    if (x.elements[i].value == "Mensch") {
+                    if (x.elements[i].value == "Göldi") {
                         document.getElementById("corr1").innerHTML = "Richtig";
                     }
                     else {
@@ -55,9 +47,15 @@
                         document.getElementById("message").reset();
                     }
                 }
-                if (x.elements[i].id == "thema"){
+                if (x.elements[i].id == "answ2"){
                     if(document.getElementById("corr1").innerHTML == "Richtig"){
-                        document.getElementById("message").submit();
+                        if(x.elements[i].value == "Jann"){
+                            document.getElementById("corr2").innerHTML = "Richtig"
+                            open("../Uferweg/Map.html")
+                        }
+                        else{
+                            document.getElementById("corr2").innerHTML = "leider Falsch"
+                        }
                     }
                 }
             }

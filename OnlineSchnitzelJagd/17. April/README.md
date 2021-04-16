@@ -33,7 +33,7 @@
 
 - Ganzer Weg: https://goo.gl/maps/2UbGtJH3v9ciGfNw9
 - Furtweg: https://goo.gl/maps/K7GPrtzEtJShAFaX6
-- Hüttenstrasse: https://goo.gl/maps/qBa3fvdYJ3Qm2Vs77
+- Hüttenstrasse: https://goo.gl/maps/fJxxhzHWmnr5UdKR9
 - Harnischbaumweg: https://goo.gl/maps/xwVm7gDN4Tb15acq9
 - Uferweg: https://goo.gl/maps/ukRWW32moVMFxvW36
 - Sonnenbergstrasse: https://goo.gl/maps/ViVdghiih1Sx4vTy9

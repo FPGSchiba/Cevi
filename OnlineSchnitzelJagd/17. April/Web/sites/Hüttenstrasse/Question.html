@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/style.css" />
-    <title>Aphadon - Hilfe</title>
+    <link rel="stylesheet" href="../../style/style.css" />
+    <title>Aphadon - Hüttenstrasse</title>
 </head>
 <body>
     <header>
@@ -14,14 +14,20 @@
                 <li>
                     <a href="../../index.html">Anfang</a>
                 </li>
-                <li class="current">
+                <li>
                     <a href="../help.html">Hilfe</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Hier ist der nächste Punkt:</h1>
+        <h1>Aufgabe</h1>
+        <h2>Macht eine Menschen Pyramiede und gebt ein Bild davon ab.</h2><br>
+        <form id="message" name="message" action="../../php/safe.php" method="POST">
+            <label for="question">Abgabe für die Menschen Pyramiede:</label><br><br>
+            <input type="file" id="pic" name="pic" size="25"><br><br><br><br>
+            <input type="submit" value="Überprüfen">
+        </form>
     </main>
     <footer>
         <p>Nicht Wichtige Informationen: Hilfe holen ist erlaubt!</p>
