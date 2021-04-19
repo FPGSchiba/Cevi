@@ -26,4 +26,6 @@
     else {
         echo "Failed to upload your image.";
     }
+
+    header("LOCATION: ../sites/Harnischbaumweg/Map.html")
 ?>
