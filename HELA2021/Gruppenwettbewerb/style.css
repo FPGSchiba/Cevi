@@ -1,0 +1,62 @@
+#managediv div {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+  }
+
+body {
+    margin: 0;
+}
+
+ #Header li a.Current {
+    background-color: #041bb5;
+    border-color: black;
+    color: white;
+}
+
+#Header {
+    margin: 10px;
+    display: flex;
+    background-color: #1bcfc0;
+    width: 20rem;
+    height: 5.5rem;
+    align-content: flex-start;
+    border-radius: 10px;
+}
+
+#Header nav {
+    height: 100%;
+    width: 100%;
+}
+
+
+#Header ul {
+    padding-inline-start: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    list-style: none;
+    align-content: flex-start;
+}
+
+#Header li {
+    display: flex;
+    justify-self: start;
+}
+
+#Header li a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    background-color: #12c782;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+#Header li a:hover {
+    background-color: #0c784f;
+    border-color: #2d2e2e;
+}
