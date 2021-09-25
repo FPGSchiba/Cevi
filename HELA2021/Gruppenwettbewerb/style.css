@@ -1,8 +1,8 @@
-#managediv div {
+#chartdiv {
     width: 80%;
-    height: 500px;
+    height: 100%;
     margin: auto;
-  }
+}
 
 body {
     margin: 0;
