@@ -6,6 +6,9 @@
 
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
  #Header li a.Current {
@@ -18,7 +21,7 @@ body {
     margin: 10px;
     display: flex;
     background-color: #1bcfc0;
-    width: 20rem;
+    width: 30rem;
     height: 5.5rem;
     align-content: flex-start;
     border-radius: 10px;
