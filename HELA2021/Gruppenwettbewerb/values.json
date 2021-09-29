@@ -1,6 +1,6 @@
 {
     "Winkelried":{
-       "color":"#000",
+       "color":"#000080",
        "values":[
             {
                 "date": "2021-10-07",
@@ -17,7 +17,7 @@
        ]
     },
     "Habsb\u00f6rger":{
-       "color":"#aaa",
+       "color":"#690420",
        "values":[
         {
             "date": "2021-10-07",
@@ -34,7 +34,7 @@
        ]
     },
     "(Ag)entlebucher":{
-       "color":"#000",
+       "color":"#008a00",
        "values":[
         {
             "date": "2021-10-07",
@@ -51,7 +51,7 @@
        ]
     },
     "R\u00fctliritter":{
-       "color":"#000",
+       "color":"#005E8A",
        "values":[
         {
             "date": "2021-10-07",
@@ -68,7 +68,7 @@
        ]
     },
     "Hohle Gessler":{
-       "color":"#000",
+       "color":"#0BC996",
        "values":[
         {
             "date": "2021-10-07",
