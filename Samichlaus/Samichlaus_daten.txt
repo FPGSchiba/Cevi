@@ -1,7 +1,24 @@
 IP: 104.224.42.96
-File Size: 1023 Yottabyte
-Matrix User ID : 23x16FG57b142Hk3
+Name: [Kein Zugriff]
+Addresse: [Kein Zugriff]
+Geburtsdatum: 01.01.1962
+Graduationsjahr: 02.01.1962
+Beschreibung: Einfach nur Cool, dieser Mensch hat es errreicht (nicht selber geschrieben)
+Abschluss Note: [Kein Zugriff]
+Grösse: [Kein Zugriff]
+Samichlaus Nummer: SC-006453123
+Ausgelieferte Geschenke: 4
+Zufriedenheit: 12%
+Schlitten Zerstört: 0
+Rentiere Mishandelt: 0
+Schlechte Taten: 1
+Schmutzli Nummber: SM-001892764
+File Grösse: 1023 Yottabyte
+Matrix Benutzer ID: 23x16FG57b142Hk3
 Phone number: 079 867 36 28
 Sys_32 ID: 182x%3d
-Cpu : Amd 3090 ti
-Gpu : RTX Ryzen 9 5900X 3.7 GHz
+Cpu: Amd 3090 ti
+Gpu: RTX Ryzen 9 5900X 3.7 GHz
+MEM: 124.634PB
+Disk-001: 2903875 PB
+Disk-002: 1283796 PB
