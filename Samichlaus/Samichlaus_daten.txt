@@ -1,0 +1,7 @@
+IP: 104.224.42.96
+File Size: 1023 Yottabyte
+Matrix User ID : 23x16FG57b142Hk3
+Phone number: 079 867 36 28
+Sys_32 ID: 182x%3d
+Cpu : Amd 3090 ti
+Gpu : RTX Ryzen 9 5900X 3.7 GHz
