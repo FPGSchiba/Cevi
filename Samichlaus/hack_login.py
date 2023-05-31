@@ -1,6 +1,5 @@
 from time import sleep
 from tqdm import tqdm
-from PIL import Image
 
 USERNAME = 'samichlaus'
 PASSWORD = '1chB1nDeSam1chlaus!?'
@@ -29,7 +28,5 @@ for i in array:
 with open('Samichlaus_daten.txt', 'r+', encoding='UTF-8') as file:
     data = file.read()
     print(data)
-
-im = Image.open(r"samichlaus.jpg")
 
 im.show()
